@@ -9,7 +9,7 @@ Nextjs studies
 
 ## Concepts
 * SSR - Server Side Rendering
-* SSG - Static Side Generation
+* SSG - Static Site Generation
 * ISR - Incremental Static Regeneration 
 
 ## How to run
