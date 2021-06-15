@@ -32,6 +32,8 @@ const Member: React.FC<MemberProps> = ({ user }) => {
   )
 }
 
+console.log('Hello')
+
 export const getStaticPaths: GetStaticPaths = async () => {
   const response = await fetch(`https://api.github.com/orgs/facebook/members`);
   const data = await response.json();
